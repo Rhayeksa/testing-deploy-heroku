@@ -22,8 +22,8 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
     "build": "react-scripts build",
+    "start": "react-scripts build\nserve -s build",
     "heroku-postbuild": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
