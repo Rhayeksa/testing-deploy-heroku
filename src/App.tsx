@@ -19,13 +19,14 @@ function App() {
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Routes>
+        {/* <Routes>
           <Route path="/study" element={<Study />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Error />} />
-        </Routes>
+        </Routes> */}
+        <h1>Hello Rhayeksa</h1>
       </div>
     </div>
   );
