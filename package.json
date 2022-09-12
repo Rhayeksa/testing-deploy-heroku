@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "engines": {
     "node": "16.17.0",
+    "npm": "8.15.0",
     "yarn": "1.22.18"
   },
   "private": true,
@@ -25,7 +26,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start-dev": "react-scripts start",
+    "start": "yarn start-dev",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
