@@ -4,7 +4,8 @@
   "engines": {
     "node": "16.17.0",
     "npm": "8.15.0",
-    "yarn": "1.22.18"
+    "yarn": "1.22.18",
+    "serve": "14.0.1"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +27,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
